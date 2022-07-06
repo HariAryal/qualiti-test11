@@ -26,7 +26,7 @@
     -H 'client-id: '${CLIENT_ID}'' \
     -H 'scopes: '${SCOPES}'' \
     | jq -r '.token')"
-
+printf 'token %s /n' "$AUTHORIZATION_TOKEN"
   # Wait until the test run has finished
   TOTAL_ITERATION=200
   I=1
