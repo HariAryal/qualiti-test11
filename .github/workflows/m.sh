@@ -23,7 +23,7 @@
   AUTHORIZATION_TOKEN="$( \
     curl -X POST -G ${API_URL}/public/api-keys/token \
     -H 'x-api-key: '${API_KEY}'' \
-    -H 'client_id: '${CLIENT_ID}'' \
+    -H 'client-id: '${CLIENT_ID}'' \
     -H 'scopes: '${SCOPES}'' \
     | jq -r '.token')"
 
