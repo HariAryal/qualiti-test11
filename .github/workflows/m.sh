@@ -2,7 +2,7 @@
 
   set -ex
 
-  API_KEY='<replace-with-api-key>'
+  API_KEY='0337b5ea10d37288'
   INTEGRATIONS_API_URL='https://api.qualiti-dev.com'
   PROJECT_ID='3'
   CLIENT_ID='dc2761a1634b1b2d1465196fadcc86b2'
